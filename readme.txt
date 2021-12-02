@@ -78,10 +78,7 @@
 	切换到已有的master分支:
 		git switch master
 
-解决冲突：
-	feature1
-	
-master解决冲突	
+1+1
 	
 	
 	
