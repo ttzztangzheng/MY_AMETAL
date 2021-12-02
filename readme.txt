@@ -81,7 +81,10 @@
 查看分支合并图
 	git log --graph
 	
-zheyoushiyaogansha
+准备合并dev分支，请注意--no-ff参数，表示禁用Fast forward：
+	强制禁用Fast forward模式，Git就会在merge时生成一个新的commit
+	合并后的历史有分支，能看出来曾经做过合并
+	git merge --no-ff -m "merge with no-ff" dev
 	
 	
 	
