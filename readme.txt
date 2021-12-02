@@ -59,13 +59,13 @@
 	
 创建分支：
 	git checkout -b 分支名			//-b表示创建并切换
-	git branch dev
-	git checkout dev				//与-b等价
+	git branch dev					//创建分支
+	git checkout dev				//切换分支 两者与-b等价
 
 查看当前分支：
 	git branch						//列出所有分支，当前分支前面会标一个*号
 
-合并分支：
+合并分支到当前分支：
 	git merge 分支名
 		
 删除分支：
@@ -77,7 +77,9 @@
 		git switch -c dev
 	切换到已有的master分支:
 		git switch master
-		
+
+解决冲突：
+	feature1
 	
 master解决冲突	
 	
