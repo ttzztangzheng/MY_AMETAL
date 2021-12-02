@@ -65,8 +65,18 @@
 查看当前分支：
 	git branch						//列出所有分支，当前分支前面会标一个*号
 
-	
-	
+合并分支：
+	git merge 分支名
+		
+删除分支：
+	git branch -d 分支名
+
+切换分支:
+	git switch
+	创建并切换到新的dev分支:
+		git switch -c dev
+	切换到已有的master分支:
+		git switch master
 		
 	
 	
