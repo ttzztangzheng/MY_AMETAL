@@ -78,7 +78,10 @@
 	切换到已有的master分支:
 		git switch master
 
-
+查看分支合并图
+	git log --graph
+	
+zheyoushiyaogansha
 	
 	
 	
