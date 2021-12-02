@@ -4,3 +4,9 @@
 将文件放到Git仓库只需要两步:
 	1.git add 文件名				//把文件添加到仓库
 	2.git commit -m "提交说明"		//把文件提交到仓库
+	
+仓库当前状态：
+	git status
+
+查看修改:
+	git diff 文件名
