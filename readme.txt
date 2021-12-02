@@ -10,3 +10,14 @@
 
 查看修改:
 	git diff 文件名
+	
+查看历史提交日志
+	git log							//由近到远
+	git log --pretty=oneline		//简化log输出
+	
+版本回退
+	git reset --hard HEAD^			//上一个版本，HEAD~100上100个版本
+	git reset --hard 版本号
+	
+查询使用命令
+	git reflog
