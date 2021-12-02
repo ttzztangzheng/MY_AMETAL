@@ -57,6 +57,15 @@
 克隆一个本地库:
 	git clone 远程库地址
 	
+创建分支：
+	git checkout -b 分支名			//-b表示创建并切换
+	git branch dev
+	git checkout dev				//与-b等价
+
+查看当前分支：
+	git branch						//列出所有分支，当前分支前面会标一个*号
+
+	
 	
 		
 	
