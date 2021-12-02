@@ -24,3 +24,17 @@
 	
 	
 工作区	add	暂存区	commit	当前分支
+
+查看工作区和版本库里面最新版本的区别：
+	git diff HEAD -- readme.txt
+	
+撤销工作区的修改：
+	git checkout -- file_name		//撤销回最新暂存或版本库
+	git restire file_name
+
+撤销暂存区的修改回到工作区，再撤销工作区	
+	git restore --staged <file>
+	git reset HEAD <file>
+	
+删除文件
+	git rm <file>					//git status有提示撤销命令
