@@ -38,3 +38,31 @@
 	
 删除文件
 	git rm <file>					//git status有提示撤销命令
+	
+将已有仓库与远端关联：
+	git remote add origin git@github.com:ttzztangzheng/MY_AMETAL.git
+
+把本地库的所有内容推送到远程库上：
+	git push -u origin master
+	
+把本地master分支的最新修改推送至GitHub:
+	git push origin master
+	
+删除远程库:
+	git remote rm <name>
+	
+查看远程库信息:
+	git remote -v
+	
+克隆一个本地库:
+	git clone 远程库地址
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
