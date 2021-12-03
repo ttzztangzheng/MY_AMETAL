@@ -70,6 +70,7 @@
 		
 删除分支：
 	git branch -d 分支名
+			   -D					//分支为合并，强行删除
 
 切换分支:
 	git switch
@@ -95,7 +96,9 @@
 	
 在master分支上修复的bug，想要合并到当前dev分支，可以用git cherry-pick <commit>命令，把bug提交的修改“复制”到当前分支，避免重复劳动。	
 
-
+查看远程库的信息：
+	git remote
+	git remote -v			//显示更详细信息，抓取和推送地址
 
 
 
