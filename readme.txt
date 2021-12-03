@@ -93,7 +93,7 @@
 	git stash drop			//删除stash内容
 	git stash pop			//恢复同时删除stash内容
 	
-tangzheng branch
+	
 
 
 
