@@ -85,6 +85,50 @@
 	强制禁用Fast forward模式，Git就会在merge时生成一个新的commit
 	合并后的历史有分支，能看出来曾经做过合并
 	git merge --no-ff -m "merge with no-ff" dev
+
+储藏当前工作现场：
+	git stash
+	git stash lish			//查看stash列表
+	git stash apply			//恢复工作区，但stash内容不删除，git stash apply stash@{0}
+	git stash drop			//删除stash内容
+	git stash pop			//恢复同时删除stash内容
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	
 	
